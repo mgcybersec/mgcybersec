@@ -56,5 +56,16 @@ My journey in computer science has led me to develop a passion for cybersecurity
 </div>
 
 ## Projects
-- Detection Lab
-- SOC Automation Project
+
+### 1. VulnLabs - Cybersecurity Home Lab
+- Built a multi-VM isolated lab environment using VirtualBox
+- Configured custom internal networks with DHCP (172.30.1.x and 10.205.1.x)
+- Deployed Kali Linux (attacker) and Metasploitable 2 (vulnerable target)
+- [View Project Folder](01-VulnLabs-Setup) | [Screenshots](Screenshots/)
+
+### 2. Wazuh SIEM Implementation (In Progress)
+- Deploying Wazuh for log collection and threat detection
+- [View Project Folder](02-Wazuh-SIEM)
+
+### 3. SOC Automation Lab (Planned)
+- Will include Shuffle SOAR, TheHive, etc.
