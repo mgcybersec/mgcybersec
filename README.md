@@ -57,7 +57,7 @@ My journey in computer science has led me to develop a passion for cybersecurity
 - Built a multi-VM isolated lab environment using VirtualBox
 - Configured custom internal networks with DHCP (172.30.1.x and 10.205.1.x)
 - Deployed Kali Linux (attacker) and Metasploitable 2 (vulnerable target)
-- [View Project Folder](01-VulnLabs-Setup) | [Screenshots](Screenshots/)
+- [View Project Folder](AI-Assisted-SIEM-Monitoring-Lab-Splunk-Enterprise-Windows-Logs-and-Claude) | [Screenshots](Screenshots/)
 
 ### 2. Wazuh SIEM Implementation (In Progress)
 - Deploying Wazuh for log collection and threat detection
