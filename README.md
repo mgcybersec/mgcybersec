@@ -1,67 +1,85 @@
-# Hello, I'm Michael G.
-<a href="https://linkedin.com"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+# Hello, I'm Michael G.  
 
-[Brief Introduction - Remove this afterwards]
+<a href="https://linkedin.com">
+  <img src="https://img.shields.io/badge/-LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+I am a recent graduate with a strong interest in technology and a passion for solving complex problems. My journey has led me to cybersecurity, and I am currently focused on transitioning into a **Security Operations Center (SOC)** role as a **Tier 1 Analyst**.
+
+---
 
 ## Objective
-[Provide Objective - Remove this afterwards]]
 
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+To leverage my hands-on SIEM experience, log analysis skills, and problem-solving abilities to contribute as a SOC Analyst while continuing to grow in the cybersecurity field.
+
+---
 
 ## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+| Skill | Associated Project |
+|-------|--------------------|
+| SIEM Deployment and File Integrity Monitoring | [Wazuh SIEM Deployment & FIM Lab](#) |
+| Log Forwarding, SIEM Administration, and Network Troubleshooting | [Splunk Universal Forwarder & BOTS v3 Lab](#) |
+| SOC Investigation with Historical Attack Datasets | [Splunk Universal Forwarder & BOTS v3 Lab](#) |
+| SPL Search Development and Security Dashboarding | [AI-Assisted SOC Monitoring Lab (Splunk + Claude MCP)](#) |
+| AI-Assisted Log Investigation (MCP Integration) | [AI-Assisted SOC Monitoring Lab (Splunk + Claude MCP)](#) |
+
+---
 
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
-</div>
+**SIEM**  
+![Splunk](https://img.shields.io/badge/-Splunk-000000?style=for-the-badge&logo=Splunk&logoColor=white)
+![Wazuh](https://img.shields.io/badge/-Wazuh-1A7CB8?style=for-the-badge&logo=Wazuh&logoColor=white)
 
-### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
-</div>
+**Virtualization & OS**  
+![VirtualBox](https://img.shields.io/badge/-VirtualBox-183A61?style=for-the-badge&logo=VirtualBox&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white)
+![Windows](https://img.shields.io/badge/-Windows-0078D6?style=for-the-badge&logo=Windows&logoColor=white)
 
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-</div>
+**AI / Automation**  
+![Claude](https://img.shields.io/badge/-Claude-D97757?style=for-the-badge&logo=Claude&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
+**Vulnerability Assessment**  
+![Nessus](https://img.shields.io/badge/-Nessus-00C176?style=for-the-badge&logo=Nessus&logoColor=white)
+
+---
 
 ## Certifications
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
-<div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-</div>
+
+![Security+](https://img.shields.io/badge/-Security%2B-FF0000?style=for-the-badge&logo=CompTIA&logoColor=white)
+
+---
 
 ## Projects
 
-### 1. VulnLabs - Cybersecurity Home Lab
-- Built a multi-VM isolated lab environment using VirtualBox
-- Configured custom internal networks with DHCP (172.30.1.x and 10.205.1.x)
-- Deployed Kali Linux (attacker) and Metasploitable 2 (vulnerable target)
-- [View Project Folder](AI-Assisted-SIEM-Monitoring-Lab-Splunk-Enterprise-Windows-Logs-and-Claude) | [Screenshots](Screenshots/)
+### 1. Wazuh SIEM Deployment & File Integrity Monitoring
+- Deployed a Wazuh SIEM (manager, indexer, dashboard) on Ubuntu and enrolled a Windows 11 endpoint as a monitored agent in an isolated VirtualBox lab network  
+- Configured real-time File Integrity Monitoring (FIM) on a target directory and validated alerting on file create/modify/delete events  
+- Troubleshot a failed install by switching to the all-in-one install flow, and rotated default admin credentials using Wazuh's password tooling  
 
-### 2. Wazuh SIEM Implementation (In Progress)
-- Deploying Wazuh for log collection and threat detection
-- [View Project Folder](02-Wazuh-SIEM)
+**[View Project Folder](#)**
 
-### 3. SOC Automation Lab (Planned)
+---
+
+### 2. Splunk Universal Forwarder & BOTS v3 SOC Investigation Lab
+- Configured a Windows VM with Splunk Universal Forwarder to send logs to a separate Splunk Enterprise receiver over TCP 9997  
+- Diagnosed Windows Firewall and forwarder-configuration issues, including a stale forward-server entry and ping-vs-port-connectivity troubleshooting  
+- Installed and investigated the BOTS v3 (Boss of the SOC) dataset, building discovery searches across sourcetypes, hosts, and suspicious activity (failed logons, PowerShell execution, downloads)  
+
+**[View Project Folder](#)**
+
+---
+
+### 3. AI-Assisted SOC Monitoring Lab — Splunk Enterprise + Claude Desktop (MCP)
+- Built Windows security-monitoring dashboards in Splunk Enterprise using live Windows Event Logs, with SPL searches for failed/successful logons, privileged activity, and account changes  
+- Installed the Splunk MCP Server and integrated it with Claude Desktop for natural-language SPL search execution and log investigation  
+- Diagnosed and resolved a Windows command-spawn/path-quoting bug, a TLS certificate issue, and an authorization-header bug (HTTP 405) blocking the MCP connection  
+
+**[View Project Folder](#) | [Screenshots](#)**
+
+---
+
+### 4. SOC Automation Lab (Planned)
 - Will include Shuffle SOAR, TheHive, etc.
