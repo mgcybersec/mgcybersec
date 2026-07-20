@@ -72,7 +72,7 @@ To leverage my hands-on SIEM experience, log analysis skills, and problem-solvin
 
 ---
 
-### 3. AI-Assisted SOC Monitoring Lab — Splunk Enterprise + Claude Desktop (MCP)
+### 3. [Splunk SIEM & Claude MCP Lab](https://github.com/mgcybersec/AI-Assisted-SIEM-Monitoring-Lab-Splunk-Enterprise-Windows-Logs-and-Claude)
 - Built Windows security-monitoring dashboards in Splunk Enterprise using live Windows Event Logs, with SPL searches for failed/successful logons, privileged activity, and account changes  
 - Installed the Splunk MCP Server and integrated it with Claude Desktop for natural-language SPL search execution and log investigation  
 - Diagnosed and resolved a Windows command-spawn/path-quoting bug, a TLS certificate issue, and an authorization-header bug (HTTP 405) blocking the MCP connection  
