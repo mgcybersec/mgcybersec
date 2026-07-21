@@ -1,4 +1,4 @@
-# Hello, I'm Michael G.  
+# Hello, I'm Michael G. (Work in progress)
 
 <a href="https://linkedin.com">
   <img src="https://img.shields.io/badge/-LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" />
