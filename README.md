@@ -80,6 +80,3 @@ To leverage my hands-on SIEM experience, log analysis skills, and problem-solvin
 **[View Project Folder](#) | [Screenshots](#)**
 
 ---
-
-### 4. SOC Automation Lab (Planned)
-- Will include Shuffle SOAR, TheHive, etc.
