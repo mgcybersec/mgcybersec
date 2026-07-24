@@ -54,12 +54,11 @@ To leverage my hands-on SIEM experience, log analysis skills, and problem-solvin
 
 ## Projects
 
-### 1. Wazuh SIEM Deployment & File Integrity Monitoring
+### 1. [Wazuh SIEM Deployment & File Integrity Monitoring](https://github.com/mgcybersec/Wazuh-SIEM-Deployment-for-Log-Analysis-File-Integrity-Monitoring-and-Threat-Detection)
 - Deployed a Wazuh SIEM (manager, indexer, dashboard) on Ubuntu and enrolled a Windows 11 endpoint as a monitored agent in an isolated VirtualBox lab network  
 - Configured real-time File Integrity Monitoring (FIM) on a target directory and validated alerting on file create/modify/delete events  
 - Troubleshot a failed install by switching to the all-in-one install flow, and rotated default admin credentials using Wazuh's password tooling  
 
-**[View Project Folder](#)**
 
 ---
 
@@ -68,7 +67,6 @@ To leverage my hands-on SIEM experience, log analysis skills, and problem-solvin
 - Diagnosed Windows Firewall and forwarder-configuration issues, including a stale forward-server entry and ping-vs-port-connectivity troubleshooting  
 - Installed and investigated the BOTS v3 (Boss of the SOC) dataset, building discovery searches across sourcetypes, hosts, and suspicious activity (failed logons, PowerShell execution, downloads)  
 
-**[View Project Folder](#)**
 
 ---
 
@@ -77,6 +75,5 @@ To leverage my hands-on SIEM experience, log analysis skills, and problem-solvin
 - Installed the Splunk MCP Server and integrated it with Claude Desktop for natural-language SPL search execution and log investigation  
 - Diagnosed and resolved a Windows command-spawn/path-quoting bug, a TLS certificate issue, and an authorization-header bug (HTTP 405) blocking the MCP connection  
 
-**[View Project Folder](#) | [Screenshots](#)**
 
 ---
