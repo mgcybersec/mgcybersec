@@ -52,28 +52,38 @@ To leverage my hands-on SIEM experience, log analysis skills, and problem-solvin
 
 ---
 
+
 ## Projects
 
-### 1. [Wazuh SIEM Deployment & File Integrity Monitoring](https://github.com/mgcybersec/Wazuh-SIEM-Deployment-for-Log-Analysis-File-Integrity-Monitoring-and-Threat-Detection)
-- Deployed a Wazuh SIEM (manager, indexer, dashboard) on Ubuntu and enrolled a Windows 11 endpoint as a monitored agent in an isolated VirtualBox lab network  
-- Configured real-time File Integrity Monitoring (FIM) on a target directory and validated alerting on file create/modify/delete events  
-- Troubleshot a failed install by switching to the all-in-one install flow, and rotated default admin credentials using Wazuh's password tooling  
+### 1. [Wazuh SIEM Deployment for Log Analysis, File Integrity Monitoring, and Threat Detection](https://github.com/mgcybersec/Wazuh-SIEM-Deployment-for-Log-Analysis-File-Integrity-Monitoring-and-Threat-Detection)
 
-
----
-
-### 2. Splunk Universal Forwarder & BOTS v3 SOC Investigation Lab
-- Configured a Windows VM with Splunk Universal Forwarder to send logs to a separate Splunk Enterprise receiver over TCP 9997  
-- Diagnosed Windows Firewall and forwarder-configuration issues, including a stale forward-server entry and ping-vs-port-connectivity troubleshooting  
-- Installed and investigated the BOTS v3 (Boss of the SOC) dataset, building discovery searches across sourcetypes, hosts, and suspicious activity (failed logons, PowerShell execution, downloads)  
-
+- Deployed a Wazuh SIEM (manager, indexer, dashboard) on Ubuntu and enrolled a Windows 11 endpoint as a monitored agent in an isolated VirtualBox lab network
+- Configured real-time File Integrity Monitoring (FIM) on a target directory and validated alerting on file create/modify/delete events
+- Troubleshot a failed install by switching to the all-in-one install flow, and rotated default admin credentials using Wazuh's password tooling
 
 ---
 
-### 3. [Splunk SIEM & Claude MCP Lab](https://github.com/mgcybersec/AI-Assisted-SIEM-Monitoring-Lab-Splunk-Enterprise-Windows-Logs-and-Claude)
-- Built Windows security-monitoring dashboards in Splunk Enterprise using live Windows Event Logs, with SPL searches for failed/successful logons, privileged activity, and account changes  
-- Installed the Splunk MCP Server and integrated it with Claude Desktop for natural-language SPL search execution and log investigation  
-- Diagnosed and resolved a Windows command-spawn/path-quoting bug, a TLS certificate issue, and an authorization-header bug (HTTP 405) blocking the MCP connection  
+### 2. [Splunk Universal Forwarder & BOTS v3 SOC Investigation Lab](https://github.com/mgcybersec/Splunk-SIEM-Deployment-and-SOC-Investigation-Lab)
+
+- Configured a Windows VM with Splunk Universal Forwarder to send logs to a separate Splunk Enterprise receiver over TCP 9997
+- Diagnosed Windows Firewall and forwarder-configuration issues, including a stale forward-server entry and ping-vs-port-connectivity troubleshooting
+- Installed and investigated the BOTS v3 (Boss of the SOC) dataset, building discovery searches across sourcetypes, hosts, and suspicious activity (failed logons, PowerShell execution, downloads)
+
+---
+
+### 3. [Multi-Source SOC Pipeline Lab: AlienVault OSSIM, Windows Event Logs, and Splunk Enterprise](https://github.com/mgcybersec/Multi-Source-SOC-Pipeline-Lab-AlienVault-OSSIM-Windows-Event-Logs-and-Splunk-Enterprise)
+
+- Built a two-stage log pipeline: Windows Security Event Logs collected via NXLog into AlienVault OSSIM's SIEM, and OSSIM's own system event stream forwarded to Splunk Enterprise via rsyslog
+- Diagnosed and resolved a proprietary SIEM plugin parsing mismatch, a corrupted vendor config file, and a silent rsyslog forwarding failure invisible to standard config validation, isolating the root cause through packet-level (`tcpdump`) network capture
+- Verified live data ingestion at each stage and queried the resulting Splunk data through an existing Splunk MCP Server integration with Claude
+
+---
+
+### 4. [AI-Assisted SOC Monitoring Lab with Splunk Enterprise, MCP Server, and Claude Desktop](https://github.com/mgcybersec/AI-Assisted-SIEM-Monitoring-Lab-Splunk-Enterprise-Windows-Logs-and-Claude)
+
+- Built Windows security-monitoring dashboards in Splunk Enterprise using live Windows Event Logs, with SPL searches for failed/successful logons, privileged activity, and account changes
+- Installed the Splunk MCP Server and integrated it with Claude Desktop for natural-language SPL search execution and log investigation
+- Diagnosed and resolved a Windows command-spawn/path-quoting bug, a TLS certificate issue, and an authorization-header bug (HTTP 405) blocking the MCP connection
 
 
 ---
