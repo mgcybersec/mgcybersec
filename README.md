@@ -18,11 +18,11 @@ To leverage my hands-on SIEM experience, log analysis skills, and problem-solvin
 
 | Skill | Associated Project |
 |-------|--------------------|
-| SIEM Deployment and File Integrity Monitoring | [Wazuh SIEM Deployment & FIM Lab](#) |
-| Log Forwarding, SIEM Administration, and Network Troubleshooting | [Splunk Universal Forwarder & BOTS v3 Lab](#) |
-| SOC Investigation with Historical Attack Datasets | [Splunk Universal Forwarder & BOTS v3 Lab](#) |
-| SPL Search Development and Security Dashboarding | [AI-Assisted SOC Monitoring Lab (Splunk + Claude MCP)](#) |
-| AI-Assisted Log Investigation (MCP Integration) | [AI-Assisted SOC Monitoring Lab (Splunk + Claude MCP)](#) |
+| SIEM Deployment and File Integrity Monitoring | [Wazuh SIEM Deployment & FIM Lab](#1-wazuh-siem-deployment-for-log-analysis-file-integrity-monitoring-and-threat-detection) |
+| Log Forwarding, SIEM Administration, and Network Troubleshooting | [Splunk Universal Forwarder & BOTS v3 Lab](#2-splunk-siem-deployment-and-soc-investigation-lab) |
+| SOC Investigation with Historical Attack Datasets | [Splunk Universal Forwarder & BOTS v3 Lab](#2-splunk-siem-deployment-and-soc-investigation-lab) |
+| SPL Search Development and Security Dashboarding | [AI-Assisted SOC Monitoring Lab (Splunk + Claude MCP)](#4-ai-assisted-soc-monitoring-lab-with-splunk-enterprise-mcp-server-and-claude-desktop) |
+| AI-Assisted Log Investigation (MCP Integration) | [AI-Assisted SOC Monitoring Lab (Splunk + Claude MCP)](#4-ai-assisted-soc-monitoring-lab-with-splunk-enterprise-mcp-server-and-claude-desktop) |
 
 ---
 
