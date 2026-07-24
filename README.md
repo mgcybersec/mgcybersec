@@ -63,7 +63,7 @@ To leverage my hands-on SIEM experience, log analysis skills, and problem-solvin
 
 ---
 
-### 2. [Splunk Universal Forwarder & BOTS v3 SOC Investigation Lab](https://github.com/mgcybersec/Splunk-SIEM-Deployment-and-SOC-Investigation-Lab)
+### 2. [Splunk SIEM Deployment and SOC Investigation Lab](https://github.com/mgcybersec/Splunk-SIEM-Deployment-and-SOC-Investigation-Lab)
 
 - Configured a Windows VM with Splunk Universal Forwarder to send logs to a separate Splunk Enterprise receiver over TCP 9997
 - Diagnosed Windows Firewall and forwarder-configuration issues, including a stale forward-server entry and ping-vs-port-connectivity troubleshooting
